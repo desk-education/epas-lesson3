@@ -383,6 +383,7 @@
       font-weight: 600;
       transition: background 0.3s ease;
       display: inline-block;
+      text-decoration: none;
     }
 
     .btn:hover {
@@ -511,8 +512,8 @@
 
   <!-- ==================== NAVIGATION BAR ==================== -->
   <nav id="main-nav">
-    <a href="#overview">Topic Discussion</a>
     <a href="#objectives">Objectives</a>
+    <a href="#overview">Topic Discussion</a>
     <a href="#abstract" class="teacher-only">Abstract</a>
     <a href="#warmup" class="teacher-only">Warm-Up</a>
     <a href="#springboard" class="teacher-only">Springboard</a>
@@ -526,10 +527,34 @@
 
   <div class="container">
 
-    <!-- ==================== SECTION 1: TOPIC DISCUSSION ==================== -->
+    <!-- ==================== SECTION 1: LEARNING OBJECTIVES & SIMPLIFIED COMPETENCIES ==================== -->
+    <section id="objectives" class="card">
+      <h2>Targeted Learning Objectives</h2>
+      <ul>
+        <li><strong>Cognitive Domain (Creating):</strong> By the end of this lesson, students will be able to <em>design</em> a step-by-step troubleshooting flowchart for diagnosing circuit faults using a multimeter's core functions (voltage, current, resistance, and continuity).</li>
+        <li><strong>Psychomotor Domain (Origination):</strong> By the end of this lesson, students will be able to <em>construct</em> a custom multi-purpose electrical test bench cable assembly (incorporating banana plugs, alligator clips, and probe leads) for multimeter testing.</li>
+        <li><strong>Affective Domain (Internalizing Values - Cautiousness):</strong> By the end of this lesson, students will <em>display cautiousness</em> by consistently verifying meter dial settings and inspecting test probes for damage before performing high-voltage or current measurements.</li>
+        <li><strong>Affective Domain (Values Alignment - Maka-tao):</strong> By the end of this lesson, students will <em>display concern for others (Maka-tao)</em> by strictly following safety protocols and verbally alerting nearby peers before energizing circuits during multimeter testing.</li>
+      </ul>
+
+      <h3 style="margin-top: 2rem;">Simplified Learning Competencies</h3>
+      <ol>
+        <li><strong>Cognitive (Knowledge):</strong>
+          <p><strong>LC 1:</strong> Explain how to measure voltage, current, and resistance, and design a step-by-step flowchart to find circuit faults.</p>
+        </li>
+        <li><strong>Psychomotor (Skills):</strong>
+          <p><strong>LC 2:</strong> Set up multimeter ports correctly to measure voltage in <strong>parallel</strong>, current in <strong>series</strong>, and construct custom test leads.</p>
+        </li>
+        <li><strong>Affective (Values & Safety):</strong>
+          <p><strong>LC 3:</strong> Practice cautiousness by checking meter settings and warning teammates (<em>Maka-tao</em>) before turning on live power.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ==================== SECTION 2: TOPIC DISCUSSION ==================== -->
     <section id="overview" class="card">
       <h2>Comprehensive Discussion: Multi-Meter</h2>
-      <p>A <strong>Multimeter</strong> (also known as a volt-ohm-milliammeter or VOM) is an essential electronic measuring instrument that combines several measurement functions into a single unit. It serves as the primary diagnostic tool for electricians, electronic technicians, engineers, and hobbyists to test circuits, measure electrical components, and troubleshoot electrical faults.</p>
+      <p>A <strong>multimeter</strong> (also known as a volt-ohm-milliammeter or VOM) is an essential electronic measuring instrument that combines several measurement functions into a single unit. It serves as the primary diagnostic tool for electricians, electronic technicians, engineers, and hobbyists to test circuits, measure electrical components, and troubleshoot electrical faults.</p>
       
       <h3>Types of Multimeters</h3>
       <p>Multimeters broadly fall into two main categories:</p>
@@ -659,31 +684,6 @@
       <div class="warning-box">
         <strong>Safety Warning:</strong> Never attempt to measure voltage while probes are plugged into the Current (A / mA) jacks. Doing so creates a direct short circuit, which can blow the meter's internal fuse, ruin the instrument, or cause explosive arc flash.
       </div>
-    </section>
-
-    <!-- ==================== SECTION 2: LEARNING OBJECTIVES & SIMPLIFIED COMPETENCIES ==================== -->
-    <section id="objectives" class="card">
-      <h2>Learning Objectives:</h2>
-      <p><strong>By the end of this lesson:</strong></p>
-      <ul>
-        <li><strong>Cognitive Domain (Creating):</strong>&nbsp;<strong style="color:lightskyblue; text-shadow: 2px 2px 3px #000000;">Design</strong> a step-by-step troubleshooting flowchart for diagnosing circuit faults using a multimeter's core functions (voltage, current, resistance, and continuity).</li>
-        <li><strong>Psychomotor Domain (Origination):</strong>&nbsp;<strong style="color:lightskyblue; text-shadow: 2px 2px 3px #000000;">Construct</strong> a custom multi-purpose electrical test bench cable assembly (incorporating banana plugs, alligator clips, and probe leads) for multimeter testing.</li>
-        <li><strong>Affective Domain (Internalizing Values - Cautiousness):</strong>&nbsp;<strong style="color:lightskyblue; text-shadow: 2px 2px 3px #000000;">Display cautiousness</strong> by consistently verifying meter dial settings and inspecting test probes for damage before performing high-voltage or current measurements.</li>
-        <li><strong>Affective Domain (Values Alignment - Maka-tao):</strong>&nbsp;<em style="color:lightskyblue; text-shadow: 2px 2px 3px #000000;"><strong>Display concern for others (Maka-tao)</strong></em> by strictly following safety protocols and verbally alerting nearby peers before energizing circuits during multimeter testing.</li>
-      </ul>
-
-      <h3 style="margin-top: 2rem;">Learning Competencies</h3>
-      <ol>
-        <li><strong style="color:lightskyblue; text-shadow: 2px 2px 3px #000000;">Cognitive (Knowledge):</strong>
-          <p><strong>LC 1:</strong> Explain how to measure voltage, current, and resistance, and design a step-by-step flowchart to find circuit faults.</p>
-        </li>
-        <li><strong style="color:lightskyblue; text-shadow: 2px 2px 3px #000000;">Psychomotor (Skills):</strong>
-          <p><strong>LC 2:</strong> Set up multimeter ports correctly to measure voltage in <strong>parallel</strong>, current in <strong>series</strong>, and construct custom test leads.</p>
-        </li>
-        <li><strong style="color:lightskyblue; text-shadow: 2px 2px 4px #000000;">Affective (Values & Safety):</strong>
-          <p><strong>LC 3:</strong> Practice cautiousness by checking meter settings and warning teammates (<em>Maka-tao</em>) before turning on live power.</p>
-        </li>
-      </ol>
     </section>
 
     <!-- ==================== SECTION 3: ABSTRACT (TEACHER ONLY) ==================== -->
@@ -816,7 +816,7 @@
 
     <!-- ==================== SECTION 7: INTERACTIVE ASSESSMENT ==================== -->
     <section id="assessment" class="card">
-      <h2>Student Assessment (15 Items)</h2>
+      <h2>Assessment (15 Items)</h2>
       <p>Please enter your student details first. Your score will be computed automatically and logged.</p>
       
       <!-- Student Info Form -->
@@ -960,7 +960,12 @@
 
       <!-- Answer Key Box (Hidden by Default) -->
       <div id="answer-key-box" class="card hidden" style="margin-top: 1.5rem;">
-        <h3 style="color: var(--accent-color);">Official Assessment Answer Key</h3>
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+          <h3 style="color: var(--accent-color); margin: 0;">Official Assessment Answer Key</h3>
+          <a href="https://docs.google.com/spreadsheets/d/1MBGlgJOTwxgguMR_7Ar8DGKyAKG1ERVa2I-9NpZwILM/edit?usp=sharing" target="_blank" class="btn btn-accent" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+            📊 Open Google Sheet Results
+          </a>
+        </div>
         <ol>
           <li><strong>B</strong> — Resistance (Ω) and Continuity</li>
           <li><strong>B</strong> — DMMs eliminate parallax error with precise digital readouts</li>
